@@ -1,0 +1,18 @@
+# Local configuration and private key material
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+credentials.json
+# Generated files and IDE settings
+target/
+*.class
+*.log
+.idea/
+.vscode/
+*.iml
